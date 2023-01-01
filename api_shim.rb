@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 # Proof of concept for an API generic API shim module
+# Running this creates an output file in current working directory `result.html`
 # Suggested command line usage: ruby api_shim.rb && open result.html
 module APIShim
   # Shim client instance that will act as our interfact to the API
