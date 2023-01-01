@@ -4,7 +4,7 @@
 # Running this creates an output file in current working directory `result.html`
 # Suggested command line usage: ruby api_shim.rb && open result.html
 module APIShim
-  # Shim client instance that will act as our interfact to the API
+  # Shim client instance that will act as our interface to the API
   class Client
     require 'httparty'
     include HTTParty
